@@ -135,8 +135,28 @@ You can track the progress by looking at the `Quest progress:` prints in the Con
 
 **Q: Ctrl + Shift + I doesn't work**
 
-A: Either download the [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64), or use [this](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/) to enable DevTools on stable
+A: Either download the [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64) or [canary client](https://canary.discord.com/), or use [this](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/) to enable DevTools on stable
+B: Press WIN + R key in discord and Run `%appdata%\discord\settings.json` and write this line or pase this text 
 
+```json
+{
+  "audioSubsystem": "experimental",
+  "offloadAdmControls": true,
+  "BACKGROUND_COLOR": "#000000",
+  "enableHardwareAcceleration": true,
+  "OPTIN_OPTIONAL_UPDATES": true,
+  "chromiumSwitches": {},
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 320,
+    "y": 156,
+    "width": 1280,
+    "height": 720
+  },
+ "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true 
+}
+```
 
 **Q: I get an error saying "Unauthorized"**
 
