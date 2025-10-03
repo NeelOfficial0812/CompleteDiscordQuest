@@ -15,9 +15,7 @@ How to use this script:
 2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
 3. Go to the `Console` tab
 4. Paste the following code and hit enter:
-<details>
-	<summary>Click to expand</summary>
-	
+
 ```js
 let wpRequire;
 window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wpRequire = req; }]);
@@ -121,7 +119,6 @@ if(!isApp) {
 	}
 }
 ```
-</details>
 
 5. Follow the printed instructions depending on what type of quest you have
     - If your quest says to "play" the game, you can just wait and do nothing
