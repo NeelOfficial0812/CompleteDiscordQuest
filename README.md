@@ -133,7 +133,8 @@ You can track the progress by looking at the `Quest progress:` prints in the Con
 **Q: Ctrl + Shift + I doesn't work**
 
 A: Either download the [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64) or [canary client](https://canary.discord.com/), or use [this](https://www.reddit.com/r/discordapp/comments/sc61n3/comment/hu4fw5x/) to enable DevTools on stable
-B: Press WIN + R key in discord and Run `%appdata%\discord\settings.json` and write this line or pase this text 
+
+B: Press WIN + R key in discord and Run ```%appdata%\discord\settings.json``` and write this line or pase this text 
 
 ```json
 {
